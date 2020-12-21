@@ -5,6 +5,13 @@
 // 2 - mettre le dossier à l'intérieur du Zip directement sur le dossier font dans public //
 
 // 3 - voici l'écriture : @font-face{font-family: 'METTRE NOM VOULU'; src: url('../../public/fonts/CHOISIR-DOSSIER-FONT');}
+@font-face{
+    font-family: 'texte';src: url('../../public/fonts/Ubuntu/Ubuntu-Regular.ttf');
+    
+}
+@font-face{
+    font-family: 'titre';src: url('../../public/fonts/Courgette/Courgette-Regular.ttf');
+}
 
 
 

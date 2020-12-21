@@ -1,0 +1,43 @@
+header{ margin: 0;
+    
+    #carouselExampleCaptions{
+        
+        nav{
+            .nav-list{
+                ul{
+                    li{
+                        border-bottom: white 1px solid;
+                        border-top: white 1px solid;
+                        a:hover{
+                            background-color:#C12D3F ;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .carousel-inner{
+        .carousel-item{
+            img{
+                filter: contrast(25%);
+            }
+            .carousel-caption{
+                
+                h1{
+                    font-family: "titre";
+                    
+                    
+                }
+                
+                .taste{
+                    color: #C12D3F;
+
+                    
+                }
+                span{
+                    font-size: 60px;
+                }
+            }
+        }
+    }
+}

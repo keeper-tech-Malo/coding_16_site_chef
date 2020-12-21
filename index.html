@@ -13,17 +13,127 @@
 <body>
 
     <!-- src/scss/modules/_header.scss -->
-    <header>
+    <header class="position-relative">
+           
+           <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" class="position-relative" width="100">
+
+            <nav class="navbar  position-absolute w-100 d-flex   pt-2" style="z-index: 1;" class="">
+                <div class="nav-list ml-10 ">
+                        <!-- Liste Option Centre -->
+                        <ul class="d-flex list-unstyled pt-2 text-uppercase ">
+        
+                            <li class="nav-item">
+                                <a class="nav-link btn" href="">home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link btn" href="">about us</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link btn" href="">menu list</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link btn" href="">team</a>
+                            </li>
+                        </ul>
+                </div>
+                <div class="navbar-brand ">
+                    <img class=""   src="./public/img/logo.png" alt="logonav">
+                </div>
+
+                <div class="nav-list mr-10">
+                    <ul class="d-flex list-unstyled pt-2 text-uppercase">
+    
+                        <li class="nav-item">
+                            <a class="nav-link btn" href="">Reservation</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link btn" href="">Blog</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link btn" href="">Testimonials</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link btn" href="">Contact Us</a>
+                        </li>
+    
+                    </ul>
+                </div>
+    
+            </nav>
+            
+
+
+            <!-- L'indicateur de page carousel (non obligatoire) , + il y a de slide , + faudra rajouter de li-->
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Corps du Carousel -->
+            <div class="carousel-inner">
+                
+
+
+                <!-- Début de Carousel -->
+                <div class="carousel-item active">
+                    <img src="./public/img/banner1.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block my-20 ">
+                        <!-- titre et texte non obligatoire -->
+                        <h1 class="">Whatever your <span class="text-uppercase">occasion, <br></span><span class="taste text-uppercase">Taste</span> <span>makes</span> it one <br>to <span>remember!</span></h5>
+                        <div class="btn">
+                            <button class="btn btn-light rounded-pill">purchase theme</button>
+                            <button class="btn btn-danger rounded-pill"> learn more</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="./public/img/banner1.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block my-20 ">
+                        <!-- titre et texte non obligatoire -->
+                        <h1 class="">whatever your <span class="text-uppercase">occasion, <br></span><span class="taste text-uppercase">Taste</span> <span>makes</span> it one <br>to <span>remember!</span></h5>
+                        <div class="btn">
+                            <button class="btn btn-light rounded-pill">purchase theme</button>
+                            <button class="btn btn-danger rounded-pill"> learn more</button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item ">
+                    <img src="./public/img/banner1.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block my-20 ">
+                        <!-- titre et texte non obligatoire -->
+                        <h1 class="">whatever your <span class="text-uppercase">occasion, <br></span><span class="taste text-uppercase">Taste</span> <span>makes</span> it one <br>to <span>remember!</span></h5>
+                        <div class="btn">
+                            <button class="btn btn-light rounded">purchase theme</button>
+                            <button class="btn btn-danger rounded"> learn more</button>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                
+            </div>
+
 
     </header>
 
-    <!-- src/scss/_corpsdusite.scss -->
+
     <section>
+
+        <div class="container pt-5 bg-white mx-auto" >
+            <h1 class="text-center text-uppercase"><span>our story</span></h1>
+            <img src="./public/img/decoration_line.png" alt="" class="image-fluid mx-auto">
+
+        </div>
 
     </section>
 
 
-    <!--src/scss/_footer.scss-->
+   
     <footer>
         
     </footer>

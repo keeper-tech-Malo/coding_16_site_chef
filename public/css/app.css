@@ -18062,7 +18062,7 @@ a.text-text:hover, a.text-text:focus {
 
 section {
   background-color: white;
-  height: 170vh;
+  height: 200vh;
 }
 
 section .menu h2 {
@@ -18081,8 +18081,16 @@ section .menu p {
   font-family: "texte";
 }
 
-section .container .row .col-4 .liste-group a {
-  font-family: "texte";
+section .menu-liste .row .col-2 .list-group a {
+  font-family: "titre";
+}
+
+section .menu-liste .row .col-2 .list-group a i {
+  color: grey;
+}
+
+section .menu-liste .row .col-2 .list-group a i:hover {
+  color: red;
 }
 
 header {

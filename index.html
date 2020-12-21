@@ -13,14 +13,14 @@
 <body>
 
     <!-- src/scss/modules/_header.scss -->
-    <header class="position-relative">
+    <header class="position-relative overflow-hidenn">
            
            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" class="position-relative" width="100">
 
-            <nav class="navbar  position-absolute w-100 d-flex   pt-2" style="z-index: 1;" class="">
+            <nav class="navbar  position-absolute w-100 " style="z-index: 1;">
                 <div class="nav-list ml-10 ">
                         <!-- Liste Option Centre -->
-                        <ul class="d-flex list-unstyled pt-2 text-uppercase ">
+                        <ul class="d-flex list-unstyled text-uppercase border-top border-bottom ">
         
                             <li class="nav-item">
                                 <a class="nav-link btn" href="">home</a>
@@ -41,7 +41,7 @@
                 </div>
 
                 <div class="nav-list mr-10">
-                    <ul class="d-flex list-unstyled pt-2 text-uppercase">
+                    <ul class="d-flex list-unstyled  text-uppercase border-top border-bottom">
     
                         <li class="nav-item">
                             <a class="nav-link btn" href="">Reservation</a>
@@ -61,6 +61,11 @@
     
             </nav>
             
+            <!-- <div class="container position-abosulte text-center mx-10 my-10">
+                <h4 class="">Whatever your <span class="text-uppercase">occasion, <br></span><span class="taste text-uppercase">Taste</span> <span>makes</span> it one <br>to <span>remember!</span></h4>
+                <button class="btn btn-light rounded-pill">purchase theme</button>
+                <button class="btn btn-danger rounded-pill"> learn more</button>
+            </div> -->
 
 
             <!-- L'indicateur de page carousel (non obligatoire) , + il y a de slide , + faudra rajouter de li-->
@@ -92,7 +97,7 @@
                     <img src="./public/img/banner1.jpg" class="d-block w-100" alt="">
                     <div class="carousel-caption d-none d-md-block my-20 ">
                         <!-- titre et texte non obligatoire -->
-                        <h1 class="">whatever your <span class="text-uppercase">occasion, <br></span><span class="taste text-uppercase">Taste</span> <span>makes</span> it one <br>to <span>remember!</span></h5>
+                        <h1 class="">Whatever your <span class="text-uppercase">occasion, <br></span><span class="taste text-uppercase">Taste</span> <span>makes</span> it one <br>to <span>remember!</span></h5>
                         <div class="btn">
                             <button class="btn btn-light rounded-pill">purchase theme</button>
                             <button class="btn btn-danger rounded-pill"> learn more</button>
@@ -105,35 +110,623 @@
                     <img src="./public/img/banner1.jpg" class="d-block w-100" alt="">
                     <div class="carousel-caption d-none d-md-block my-20 ">
                         <!-- titre et texte non obligatoire -->
-                        <h1 class="">whatever your <span class="text-uppercase">occasion, <br></span><span class="taste text-uppercase">Taste</span> <span>makes</span> it one <br>to <span>remember!</span></h5>
+                        <h1 class="">Whatever your <span class="text-uppercase">occasion, <br></span><span class="taste text-uppercase">Taste</span> <span>makes</span> it one <br>to <span>remember!</span></h5>
                         <div class="btn">
                             <button class="btn btn-light rounded">purchase theme</button>
                             <button class="btn btn-danger rounded"> learn more</button>
 
                         </div>
                     </div>
-                </div>
+                </div>    
+            </div>
 
-
-                
+            <div>
+                <img src="./im" alt="">
             </div>
 
 
     </header>
+    
+    <div>
+        <img src="./public/img/bottom_decoration_img.png" alt="bottomdecoration">
+    </div>
 
 
-    <section>
+    <section class="container pt-5 text-center position-relative ">
 
-        <div class="container pt-5 bg-white mx-auto" >
-            <h1 class="text-center text-uppercase"><span>our story</span></h1>
-            <img src="./public/img/decoration_line.png" alt="" class="image-fluid mx-auto">
+        <img class="position-absolute" src="./public/img/box-right-top.png"  style="top: 0; right: 0;" alt="">
+        <img class="position-absolute" src="./public/img/box-left-top.png"  style="top: 0; left: 0;" alt="">
+        <img class="position-absolute" src="./public/img/box-bottom_right.png"  style="bottom: 0; right: 0;" alt="">
+        <img class="position-absolute" src="./public/img/box-bottom-left.png"  style="bottom: 0; left: 0;" alt="">
 
+        <div class=" pt-5 px-5  mx-auto menu" >
+            <h2 class="text-center "><span class="our text-uppercase">our</span > <span class="story">Story</span></h2>
+            <img src="./public/img/decoration_line.png" alt="" class="">
+            <p class="px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti qui, ab ducimus hic veritatis aspernatur aliquam odit cumque id iusto pariatur omnis autem minima, velit odio reprehenderit atque! Alias, animi!</p>
         </div>
+        
+        <div class=" pt-5 px-5 menu  " >
+        <h2 class="text-center"><span class="our text-uppercase">our</span> <span class="story">Menu List</span></h2>
+        <img src="./public/img/decoration_line.png" alt="" class="image-fluid">
+        </div>
+
+            
+                    <div class="container pt-5">
+                        <div class="row">
+                        <div class="col-4 p-0">
+                            <div class="list-group" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action  active " id="onglet1" data-toggle="list" href="#o1" role="tab" aria-controls="Breakfast"><i class="fas fa-mug-hot text-danger"></i><br>Breakfast</a>
+                            <a class="list-group-item list-group-item-action" id="onglet2" data-toggle="list" href="#o2" role="tab" aria-controls="lunch"><i class="fas fa-hamburger text-danger"></i><br> Lunch</a>
+                            <a class="list-group-item list-group-item-action" id="onglet3" data-toggle="list" href="#o3" role="tab" aria-controls="snacks"><i class="fas fa-cookie text-danger"></i><br> Snacks</a>
+                            <a class="list-group-item list-group-item-action" id="onglet4" data-toggle="list" href="#o4" role="tab" aria-controls="dinner"><i class="fas fa-mug-hot text-danger"></i><br> Dinner</a>
+                            </div>
+                        </div>
+
+                        <div class="col-8 p-0">
+                            <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade active show" id="o1" role="tabpanel" aria-labelledby="Breakfast">
+
+                                <div class="container row d-inline-flex p-0 ">
+
+                                    <div class="col-6 d-flex align-items-center pt-3">
+                                        <div class="px-3">
+                                            <img class="rounded-circle border-light" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center pt-3">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center pt-5">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center pt-5">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center pt-5">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center pt-5">
+                                        <div class="px-3">
+                                            <img  class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center pt-5">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center  pt-5">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center pt-5">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center pt-5">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade" id="o2" role="tabpanel" aria-labelledby="lunch">
+                                <div class="container row d-inline-flex p-0 ">
+
+                                    <div class="col-6 d-flex align-items-center pt-5">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center pt-5">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center pt-5">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center pt-5">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center pt-5">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center pt-5">
+                                        <div class="px-3">
+                                            <img  class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center pt-5">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center pt-5">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center pt-5">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center pt-5">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                </div>
+                            <div class="tab-pane fade" id="o3" role="tabpanel" aria-labelledby="snacks">
+                                <div class="container row d-inline-flex p-0 ">
+
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img  class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                </div>
+                            <div class="tab-pane fade" id="o4" role="tabpanel" aria-labelledby="dinner">
+                                <div class="container row d-inline-flex p-0 ">
+
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img  class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="px-3">
+                                            <img class="rounded-circle" src="./public/img/menu_image_1.jpg" alt="">
+                                        </div>
+                                        <div class="px-3">
+                                            <h6>Dear steak with Potatoes</h6>
+                                            <p>description</p>
+                                        </div>
+                                        <div class="px-3">
+                                            <span>35$</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    
+
+            </div>
+
+            
 
     </section>
 
 
-   
     <footer>
         
     </footer>

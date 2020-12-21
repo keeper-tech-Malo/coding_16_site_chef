@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'texte';
-  src: url("../../public/fonts/Ubuntu/Ubuntu-Regular.ttf");
+  src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
 }
 
 @font-face {
   font-family: 'titre';
-  src: url("../../public/fonts/Courgette/Courgette-Regular.ttf");
+  src: url("../fonts/Courgette/Courgette-Regular.ttf");
 }
 
 /*!
@@ -18060,13 +18060,37 @@ a.text-text:hover, a.text-text:focus {
   }
 }
 
+section {
+  background-color: white;
+  height: 170vh;
+}
+
+section .menu h2 {
+  font-family: "titre";
+}
+
+section .menu h2 .our {
+  color: #C12D3F;
+}
+
+section .menu h2 .story {
+  font-size: 25px;
+}
+
+section .menu p {
+  font-family: "texte";
+}
+
+section .container .row .col-4 .liste-group a {
+  font-family: "texte";
+}
+
 header {
   margin: 0;
 }
 
-header #carouselExampleCaptions nav .nav-list ul li {
-  border-bottom: white 1px solid;
-  border-top: white 1px solid;
+header #carouselExampleCaptions nav .nav-list ul li a {
+  color: white;
 }
 
 header #carouselExampleCaptions nav .nav-list ul li a:hover {
@@ -18074,7 +18098,7 @@ header #carouselExampleCaptions nav .nav-list ul li a:hover {
 }
 
 header .carousel-inner .carousel-item img {
-  filter: contrast(25%);
+  filter: brightness(30%);
 }
 
 header .carousel-inner .carousel-item .carousel-caption h1 {

@@ -6,8 +6,9 @@ header{ margin: 0;
             .nav-list{
                 ul{
                     li{
-                        border-bottom: white 1px solid;
-                        border-top: white 1px solid;
+                        a{
+                            color: white;
+                        }
                         a:hover{
                             background-color:#C12D3F ;
                         }
@@ -19,7 +20,7 @@ header{ margin: 0;
     .carousel-inner{
         .carousel-item{
             img{
-                filter: contrast(25%);
+                filter: brightness(30%);
             }
             .carousel-caption{
                 

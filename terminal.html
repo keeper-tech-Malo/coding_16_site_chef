@@ -1,0 +1,75 @@
+<!-- Voici tout ce qu'il y a à mettre dans le terminal -->
+
+<!-- ( créer et placer correctement vos dossier) -->
+
+<!-- 1 - d'abord pour lier votre app.scss -->
+
+    <!-- 1 -1 telecharger l'extention live sass compiler -->
+
+        <!-- appuyer sur option -> extention setting -> appuyez sur le 1er Edit in setting.json -->
+
+            <!-- mettre ce qui est en dessous juste apres cette ligne deja existante ->     "liveSassCompile.settings.autoprefix": [],
+
+                "liveSassCompile.settings.includeItems": [],
+                "liveSassCompile.settings.excludeList": [
+                    "**/node_modules/**",
+                    ".vscode/**"
+                ],
+                //pas de fichier map
+                "liveSassCompile.settings.generateMap": false,
+                "liveSassCompile.settings.formats": [
+                    //dist minified
+                    {
+                        "format": "expanded",
+                        "extensionName": ".css",
+                        "savePath": "/public/css"
+                    },
+                    //fichiers source
+                    // {
+                    //     "format": "compressed",
+                    //     "extensionName": ".min.css",
+                    //     "savePath": "/dist/css"
+                    // }
+                ],
+
+             -->
+
+        <!-- utiliser le Watch Sass ( en bas à droite ) pour chaque nouvelle connexion -->
+    
+    <!-- 1 -2 Où créer un nouveau bash dans votre terminal que vous utiliserez uniquement pour lier votre scss a votre css -->
+
+             <!-- exemple -->
+        <!-- sass --watch (chemin vers scss):(chemin vers css) -->
+        
+             <!-- application -->
+        <!-- sass --watch src/scss/app.scss:public/css/app.css -->
+
+
+
+<!-- 2 - lier votre dossier vers github et mettre le 1er lien !-->
+
+<!-- 3 - créer une nouvelle sauvergarde dans votre github -->
+
+    <!-- ( un à un )
+        git add --all 
+        git commit -m "NomSauvegarde1"
+        git push -u origin main
+    -->
+
+    <!-- Ignorer un fichier sur GitHub -->
+        <!--  -->
+
+<!-- 4 - Telecharger Fontawesome ( voir src/scss/app.scss) -->
+
+    <!-- ( un à un )
+        npm init -y
+        npm i @fortawesome/fontawesome-free
+     -->
+
+<!-- 5 - Telecharger Bootstrap et JQuery ( voir home.html , en fin de body )-->
+
+     <!-- ( un à un )
+         npm install bootstrap
+         npm install jquery
+         -->
+

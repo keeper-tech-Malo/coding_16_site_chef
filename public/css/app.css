@@ -18183,6 +18183,51 @@ section .menu-liste .liste-rw .col-2 .list-group a:hover {
   border: 3px #d4d2d2 solid;
 }
 
+.book button {
+  background-color: #C12D3F;
+  color: white;
+}
+
+.testimonial {
+  background-image: url("../../../public/img/testimonials_background.jpg");
+  height: 59vh;
+}
+
+.testimonial .client h2 {
+  font-family: "titre";
+  color: white;
+}
+
+.testimonial .client h2 .test {
+  color: #C12D3F;
+}
+
+.testimonial .client h2 .test2 {
+  font-size: 20px;
+}
+
+.testimonial .info-img .photo img {
+  border: #cacaca 5px solid;
+  height: 150px;
+}
+
+.testimonial .info-img .photo .info {
+  border: white 1px solid;
+  border-radius: 10px;
+}
+
+.testimonial .info-img .photo .info h4 {
+  font-family: "texte";
+}
+
+.testimonial .info-img .photo .info h5 {
+  color: #C12D3F;
+}
+
+.testimonial .info-img .photo .info p {
+  font-family: "texte";
+}
+
 header {
   margin: 0;
 }

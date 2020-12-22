@@ -1,7 +1,7 @@
 section{
     background-color: white;
-    height: 200vh;
-
+    height: max-content;
+    
     
     .menu{
         h2{
@@ -22,12 +22,17 @@ section{
 
     }
     .menu-liste{
-        .row{
+        .liste-rw{
             .col-2{
                 .list-group{
                     
                     a{
                         font-family: "titre";
+                        color: black;
+                        background-color: white;
+                        border: none;
+                        border-right: grey 2px solid;
+                        border-bottom: grey 2px solid;
                         
                         i{
                             color: grey;
@@ -36,10 +41,115 @@ section{
                             color: red;
                         }
                     }
+                    a:hover{
+                        border-right: red 2px solid;
                     }
-              
+                    }
+                }
+            }
+            .col-10{
+                #o1{
+                    .container{
+                        // border-left: 2px solid grey;
+                        .col-6{
+                            .px-2{
+                                hr{
+                                    // border-bottom: 2px solid dashed grey;
+                                    
+                                }
+                            }
+                        }
+                    }
                 }
             }
         
+    }
+}
+.chef{
+    background-image: url("../../../public/img/team_background.jpg");
+    height: max-content;
+    border-radius: 10px;
+    
+    .chef-liste{
+        h2{
+            font-family: "titre";
+            color: white;
+            .meet{
+                color: #C12D3F;
+            }
+        }
+        .chef-photo{
+            .chef1{
+                p{
+                    font-family: "texte";
+                }
+            }
+        }
+        
+    }
+
+}
+.book{
+    background-color: white;
+    
+    .formulaire{
+        margin: 0 auto;
+        width: 70%;
+        background-image: url("../../../public/img/book_table_bg.jpg");
+        
+        
+        p{
+            font-family: "texte";
+        }
+        .form-row{
+            // margin: 0 auto;
+            input{
+                margin: 0 auto;
+                width: 70%;
+                border-radius: 10px;
+                
+            }
+            #inputState{
+                margin: 0 auto;
+                width: 70%;
+                border-radius: 10px;
+            }
+            .form-control{
+                border-radius: 10px;
+            }
+        }
+        button{
+            background-color: #C12D3F;
+        }
+    }
+
+    .carte{
+        width: 70%;
+        .card{
+            .com{
+                margin-top: 50%;
+                width: 80%;
+                background-color: #C12D3F;
+                border-radius: 10px;
+                margin-left: 6%;
+                
+            }
+            .date{
+                font-family: "texte";
+                background-color: #C12D3F;
+                border-radius: 10px;
+                
+
+                span{
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+            }
+            img{
+                border-radius: 20px;
+                border: 3px rgb(212, 210, 210) solid;
+            }
+            
+        }
     }
 }

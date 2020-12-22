@@ -18062,7 +18062,7 @@ a.text-text:hover, a.text-text:focus {
 
 section {
   background-color: white;
-  height: 200vh;
+  height: max-content;
 }
 
 section .menu h2 {
@@ -18081,16 +18081,106 @@ section .menu p {
   font-family: "texte";
 }
 
-section .menu-liste .row .col-2 .list-group a {
+section .menu-liste .liste-rw .col-2 .list-group a {
   font-family: "titre";
+  color: black;
+  background-color: white;
+  border: none;
+  border-right: grey 2px solid;
+  border-bottom: grey 2px solid;
 }
 
-section .menu-liste .row .col-2 .list-group a i {
+section .menu-liste .liste-rw .col-2 .list-group a i {
   color: grey;
 }
 
-section .menu-liste .row .col-2 .list-group a i:hover {
+section .menu-liste .liste-rw .col-2 .list-group a i:hover {
   color: red;
+}
+
+section .menu-liste .liste-rw .col-2 .list-group a:hover {
+  border-right: red 2px solid;
+}
+
+.chef {
+  background-image: url("../../../public/img/team_background.jpg");
+  height: max-content;
+  border-radius: 10px;
+}
+
+.chef .chef-liste h2 {
+  font-family: "titre";
+  color: white;
+}
+
+.chef .chef-liste h2 .meet {
+  color: #C12D3F;
+}
+
+.chef .chef-liste .chef-photo .chef1 p {
+  font-family: "texte";
+}
+
+.book {
+  background-color: white;
+}
+
+.book .formulaire {
+  margin: 0 auto;
+  width: 70%;
+  background-image: url("../../../public/img/book_table_bg.jpg");
+}
+
+.book .formulaire p {
+  font-family: "texte";
+}
+
+.book .formulaire .form-row input {
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.book .formulaire .form-row #inputState {
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.book .formulaire .form-row .form-control {
+  border-radius: 10px;
+}
+
+.book .formulaire button {
+  background-color: #C12D3F;
+}
+
+.book .carte {
+  width: 70%;
+}
+
+.book .carte .card .com {
+  margin-top: 50%;
+  width: 80%;
+  background-color: #C12D3F;
+  border-radius: 10px;
+  margin-left: 6%;
+}
+
+.book .carte .card .date {
+  font-family: "texte";
+  background-color: #C12D3F;
+  border-radius: 10px;
+}
+
+.book .carte .card .date span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.book .carte .card img {
+  border-radius: 20px;
+  border: 3px #d4d2d2 solid;
 }
 
 header {
@@ -18105,23 +18195,29 @@ header #carouselExampleCaptions nav .nav-list ul li a:hover {
   background-color: #C12D3F;
 }
 
-header .carousel-inner .carousel-item img {
+header .bottom-header {
+  position: absolute;
+  bottom: 0%;
+  display: flex;
+}
+
+.carousel-inner .carousel-item img {
   filter: brightness(30%);
 }
 
-header .carousel-inner .carousel-item .carousel-caption h1 {
+.carousel-inner .carousel-item .carousel-caption h1 {
   font-family: "titre";
 }
 
-header .carousel-inner .carousel-item .carousel-caption .taste {
+.carousel-inner .carousel-item .carousel-caption .taste {
   color: #C12D3F;
 }
 
-header .carousel-inner .carousel-item .carousel-caption span {
+.carousel-inner .carousel-item .carousel-caption span {
   font-size: 60px;
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   background-image: url("../../../public/img/main_bg.jpg");
 }

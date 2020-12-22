@@ -17,6 +17,13 @@ header{ margin: 0;
             }
         }
     }
+    .bottom-header{
+        position: absolute;
+        bottom: 0%;
+        display: flex;
+    }
+
+}    
     .carousel-inner{
         .carousel-item{
             img{
@@ -41,4 +48,4 @@ header{ margin: 0;
             }
         }
     }
-}
+

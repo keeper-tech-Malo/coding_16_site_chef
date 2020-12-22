@@ -18228,6 +18228,21 @@ section .menu-liste .liste-rw .col-2 .list-group a:hover {
   font-family: "texte";
 }
 
+.contact {
+  background: none;
+}
+
+.contact .localistation {
+  background-color: #C12D3F;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.contact .localistation i {
+  color: white;
+  font-size: 30px;
+}
+
 header {
   margin: 0;
 }

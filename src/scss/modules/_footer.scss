@@ -1,0 +1,40 @@
+footer{
+    background-image: url("../img/footer_background.jpg");
+    height: max-content;
+    .foo{
+        .reseau{
+            
+            .insta{
+                width: 80px;
+                padding: 4px;
+                
+            }
+            h2{
+                font-family: "texte";
+            }
+        }
+        .about{
+            h2{
+                font-family: "texte";
+            }
+            p{
+                font-family: "texte";
+            }
+            i{
+                color: white;
+                font-size: 20px;
+            }
+        }
+        .bouton{
+            button{
+                padding: 10px;
+                margin: 4px;
+                
+            }
+        }
+    }
+    .rouge{
+        background-color: #C12D3F;
+        height: 100px;
+    }
+}

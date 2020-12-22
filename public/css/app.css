@@ -18277,6 +18277,43 @@ header .bottom-header {
   font-size: 60px;
 }
 
+footer {
+  background-image: url("../img/footer_background.jpg");
+  height: max-content;
+}
+
+footer .foo .reseau .insta {
+  width: 80px;
+  padding: 4px;
+}
+
+footer .foo .reseau h2 {
+  font-family: "texte";
+}
+
+footer .foo .about h2 {
+  font-family: "texte";
+}
+
+footer .foo .about p {
+  font-family: "texte";
+}
+
+footer .foo .about i {
+  color: white;
+  font-size: 20px;
+}
+
+footer .foo .bouton button {
+  padding: 10px;
+  margin: 4px;
+}
+
+footer .rouge {
+  background-color: #C12D3F;
+  height: 100px;
+}
+
 body {
   margin: 0 auto;
   background-image: url("../../../public/img/main_bg.jpg");

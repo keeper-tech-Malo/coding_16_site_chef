@@ -18173,6 +18173,7 @@ section .menu-liste .lex #o1 .container .col-lg-6 .px-2 span {
   background-color: #C12D3F;
   border-radius: 10px;
   margin-left: 6%;
+  height: max-content;
 }
 
 .book .carte .card .date {

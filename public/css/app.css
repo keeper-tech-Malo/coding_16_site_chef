@@ -18256,11 +18256,30 @@ header {
   margin: 0 auto;
 }
 
-header #carouselExampleCaptions nav .nav-list ul li a {
+header .titre-centre {
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header .titre-centre h1 {
+  font-family: "titre";
+}
+
+header .titre-centre .taste {
+  color: #C12D3F;
+}
+
+header .titre-centre span {
+  font-size: 60px;
+}
+
+header nav .nav-list ul li a {
   color: white;
 }
 
-header #carouselExampleCaptions nav .nav-list ul li a:hover {
+header nav .nav-list ul li a:hover {
   background-color: #C12D3F;
 }
 
@@ -18272,18 +18291,6 @@ header .bottom-header {
 
 .carousel-inner .carousel-item img {
   filter: brightness(30%);
-}
-
-.carousel-inner .carousel-item .carousel-caption h1 {
-  font-family: "titre";
-}
-
-.carousel-inner .carousel-item .carousel-caption .taste {
-  color: #C12D3F;
-}
-
-.carousel-inner .carousel-item .carousel-caption span {
-  font-size: 60px;
 }
 
 .deco {

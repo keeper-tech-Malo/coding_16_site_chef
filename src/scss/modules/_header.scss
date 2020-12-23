@@ -1,22 +1,40 @@
 header{ margin: 0 auto;
-    
-    #carouselExampleCaptions{
+
+    .titre-centre{
+        z-index: 1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        h1{
+            font-family: "titre";
+            
+            
+        }
         
-        nav{
-            .nav-list{
-                ul{
-                    li{
-                        a{
-                            color: white;
-                        }
-                        a:hover{
-                            background-color:#C12D3F ;
-                        }
+        .taste{
+            color: #C12D3F;
+
+            
+        }
+        span{
+            font-size: 60px;
+        }
+    }
+    nav{
+        .nav-list{
+            ul{
+                li{
+                    a{
+                        color: white;
+                    }
+                    a:hover{
+                        background-color:#C12D3F ;
                     }
                 }
             }
         }
     }
+   
     .bottom-header{
         position: absolute;
         bottom: 0%;
@@ -25,27 +43,12 @@ header{ margin: 0 auto;
 
 }    
     .carousel-inner{
+        
         .carousel-item{
             img{
                 filter: brightness(30%);
             }
-            .carousel-caption{
-                
-                h1{
-                    font-family: "titre";
-                    
-                    
-                }
-                
-                .taste{
-                    color: #C12D3F;
-
-                    
-                }
-                span{
-                    font-size: 60px;
-                }
-            }
+            
         }
     }
     .deco{

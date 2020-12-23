@@ -23,7 +23,7 @@ section{
     }
     .menu-liste{
         .liste-rw{
-            .col-2{
+            .rex{
                 .list-group{
                     
                     a{
@@ -47,14 +47,17 @@ section{
                     }
                 }
             }
-            .col-10{
+            .lex{
                 #o1{
                     .container{
                         // border-left: 2px solid grey;
-                        .col-6{
+                        .col-lg-6{
+                            
+                            border-width: 50;
                             .px-2{
-                                hr{
+                                span{
                                     // border-bottom: 2px solid dashed grey;
+                                    background-color: rgb(209, 205, 205);
                                     
                                 }
                             }
@@ -67,8 +70,9 @@ section{
 }
 .chef{
     background-image: url("../../../public/img/team_background.jpg");
-    height: max-content;
-    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+   
     
     .chef-liste{
         h2{
@@ -136,7 +140,7 @@ section{
             }
             .date{
                 font-family: "texte";
-                background-color: #C12D3F;
+                
                 border-radius: 10px;
                 
 
@@ -161,7 +165,8 @@ section{
 
 .testimonial{
     background-image: url("../../../public/img/testimonials_background.jpg");
-    height: 59vh;
+    width: 100%;
+    height: 100%;
     .client{
         h2{
             font-family: "titre";

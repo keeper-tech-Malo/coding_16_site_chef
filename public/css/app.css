@@ -14271,27 +14271,27 @@ button.bg-text:focus {
 }
 
 .m-10 {
-  margin: 10rem !important;
+  margin: 12rem !important;
 }
 
 .mt-10,
 .my-10 {
-  margin-top: 10rem !important;
+  margin-top: 12rem !important;
 }
 
 .mr-10,
 .mx-10 {
-  margin-right: 10rem !important;
+  margin-right: 12rem !important;
 }
 
 .mb-10,
 .my-10 {
-  margin-bottom: 10rem !important;
+  margin-bottom: 12rem !important;
 }
 
 .ml-10,
 .mx-10 {
-  margin-left: 10rem !important;
+  margin-left: 12rem !important;
 }
 
 .m-20 {
@@ -14559,27 +14559,27 @@ button.bg-text:focus {
 }
 
 .p-10 {
-  padding: 10rem !important;
+  padding: 12rem !important;
 }
 
 .pt-10,
 .py-10 {
-  padding-top: 10rem !important;
+  padding-top: 12rem !important;
 }
 
 .pr-10,
 .px-10 {
-  padding-right: 10rem !important;
+  padding-right: 12rem !important;
 }
 
 .pb-10,
 .py-10 {
-  padding-bottom: 10rem !important;
+  padding-bottom: 12rem !important;
 }
 
 .pl-10,
 .px-10 {
-  padding-left: 10rem !important;
+  padding-left: 12rem !important;
 }
 
 .p-20 {
@@ -14823,27 +14823,27 @@ button.bg-text:focus {
 }
 
 .m-n10 {
-  margin: -10rem !important;
+  margin: -12rem !important;
 }
 
 .mt-n10,
 .my-n10 {
-  margin-top: -10rem !important;
+  margin-top: -12rem !important;
 }
 
 .mr-n10,
 .mx-n10 {
-  margin-right: -10rem !important;
+  margin-right: -12rem !important;
 }
 
 .mb-n10,
 .my-n10 {
-  margin-bottom: -10rem !important;
+  margin-bottom: -12rem !important;
 }
 
 .ml-n10,
 .mx-n10 {
-  margin-left: -10rem !important;
+  margin-left: -12rem !important;
 }
 
 .m-n20 {
@@ -15101,23 +15101,23 @@ button.bg-text:focus {
     margin-left: 6rem !important;
   }
   .m-sm-10 {
-    margin: 10rem !important;
+    margin: 12rem !important;
   }
   .mt-sm-10,
   .my-sm-10 {
-    margin-top: 10rem !important;
+    margin-top: 12rem !important;
   }
   .mr-sm-10,
   .mx-sm-10 {
-    margin-right: 10rem !important;
+    margin-right: 12rem !important;
   }
   .mb-sm-10,
   .my-sm-10 {
-    margin-bottom: 10rem !important;
+    margin-bottom: 12rem !important;
   }
   .ml-sm-10,
   .mx-sm-10 {
-    margin-left: 10rem !important;
+    margin-left: 12rem !important;
   }
   .m-sm-20 {
     margin: 20rem !important;
@@ -15329,23 +15329,23 @@ button.bg-text:focus {
     padding-left: 6rem !important;
   }
   .p-sm-10 {
-    padding: 10rem !important;
+    padding: 12rem !important;
   }
   .pt-sm-10,
   .py-sm-10 {
-    padding-top: 10rem !important;
+    padding-top: 12rem !important;
   }
   .pr-sm-10,
   .px-sm-10 {
-    padding-right: 10rem !important;
+    padding-right: 12rem !important;
   }
   .pb-sm-10,
   .py-sm-10 {
-    padding-bottom: 10rem !important;
+    padding-bottom: 12rem !important;
   }
   .pl-sm-10,
   .px-sm-10 {
-    padding-left: 10rem !important;
+    padding-left: 12rem !important;
   }
   .p-sm-20 {
     padding: 20rem !important;
@@ -15538,23 +15538,23 @@ button.bg-text:focus {
     margin-left: -6rem !important;
   }
   .m-sm-n10 {
-    margin: -10rem !important;
+    margin: -12rem !important;
   }
   .mt-sm-n10,
   .my-sm-n10 {
-    margin-top: -10rem !important;
+    margin-top: -12rem !important;
   }
   .mr-sm-n10,
   .mx-sm-n10 {
-    margin-right: -10rem !important;
+    margin-right: -12rem !important;
   }
   .mb-sm-n10,
   .my-sm-n10 {
-    margin-bottom: -10rem !important;
+    margin-bottom: -12rem !important;
   }
   .ml-sm-n10,
   .mx-sm-n10 {
-    margin-left: -10rem !important;
+    margin-left: -12rem !important;
   }
   .m-sm-n20 {
     margin: -20rem !important;
@@ -15788,23 +15788,23 @@ button.bg-text:focus {
     margin-left: 6rem !important;
   }
   .m-md-10 {
-    margin: 10rem !important;
+    margin: 12rem !important;
   }
   .mt-md-10,
   .my-md-10 {
-    margin-top: 10rem !important;
+    margin-top: 12rem !important;
   }
   .mr-md-10,
   .mx-md-10 {
-    margin-right: 10rem !important;
+    margin-right: 12rem !important;
   }
   .mb-md-10,
   .my-md-10 {
-    margin-bottom: 10rem !important;
+    margin-bottom: 12rem !important;
   }
   .ml-md-10,
   .mx-md-10 {
-    margin-left: 10rem !important;
+    margin-left: 12rem !important;
   }
   .m-md-20 {
     margin: 20rem !important;
@@ -16016,23 +16016,23 @@ button.bg-text:focus {
     padding-left: 6rem !important;
   }
   .p-md-10 {
-    padding: 10rem !important;
+    padding: 12rem !important;
   }
   .pt-md-10,
   .py-md-10 {
-    padding-top: 10rem !important;
+    padding-top: 12rem !important;
   }
   .pr-md-10,
   .px-md-10 {
-    padding-right: 10rem !important;
+    padding-right: 12rem !important;
   }
   .pb-md-10,
   .py-md-10 {
-    padding-bottom: 10rem !important;
+    padding-bottom: 12rem !important;
   }
   .pl-md-10,
   .px-md-10 {
-    padding-left: 10rem !important;
+    padding-left: 12rem !important;
   }
   .p-md-20 {
     padding: 20rem !important;
@@ -16225,23 +16225,23 @@ button.bg-text:focus {
     margin-left: -6rem !important;
   }
   .m-md-n10 {
-    margin: -10rem !important;
+    margin: -12rem !important;
   }
   .mt-md-n10,
   .my-md-n10 {
-    margin-top: -10rem !important;
+    margin-top: -12rem !important;
   }
   .mr-md-n10,
   .mx-md-n10 {
-    margin-right: -10rem !important;
+    margin-right: -12rem !important;
   }
   .mb-md-n10,
   .my-md-n10 {
-    margin-bottom: -10rem !important;
+    margin-bottom: -12rem !important;
   }
   .ml-md-n10,
   .mx-md-n10 {
-    margin-left: -10rem !important;
+    margin-left: -12rem !important;
   }
   .m-md-n20 {
     margin: -20rem !important;
@@ -16475,23 +16475,23 @@ button.bg-text:focus {
     margin-left: 6rem !important;
   }
   .m-lg-10 {
-    margin: 10rem !important;
+    margin: 12rem !important;
   }
   .mt-lg-10,
   .my-lg-10 {
-    margin-top: 10rem !important;
+    margin-top: 12rem !important;
   }
   .mr-lg-10,
   .mx-lg-10 {
-    margin-right: 10rem !important;
+    margin-right: 12rem !important;
   }
   .mb-lg-10,
   .my-lg-10 {
-    margin-bottom: 10rem !important;
+    margin-bottom: 12rem !important;
   }
   .ml-lg-10,
   .mx-lg-10 {
-    margin-left: 10rem !important;
+    margin-left: 12rem !important;
   }
   .m-lg-20 {
     margin: 20rem !important;
@@ -16703,23 +16703,23 @@ button.bg-text:focus {
     padding-left: 6rem !important;
   }
   .p-lg-10 {
-    padding: 10rem !important;
+    padding: 12rem !important;
   }
   .pt-lg-10,
   .py-lg-10 {
-    padding-top: 10rem !important;
+    padding-top: 12rem !important;
   }
   .pr-lg-10,
   .px-lg-10 {
-    padding-right: 10rem !important;
+    padding-right: 12rem !important;
   }
   .pb-lg-10,
   .py-lg-10 {
-    padding-bottom: 10rem !important;
+    padding-bottom: 12rem !important;
   }
   .pl-lg-10,
   .px-lg-10 {
-    padding-left: 10rem !important;
+    padding-left: 12rem !important;
   }
   .p-lg-20 {
     padding: 20rem !important;
@@ -16912,23 +16912,23 @@ button.bg-text:focus {
     margin-left: -6rem !important;
   }
   .m-lg-n10 {
-    margin: -10rem !important;
+    margin: -12rem !important;
   }
   .mt-lg-n10,
   .my-lg-n10 {
-    margin-top: -10rem !important;
+    margin-top: -12rem !important;
   }
   .mr-lg-n10,
   .mx-lg-n10 {
-    margin-right: -10rem !important;
+    margin-right: -12rem !important;
   }
   .mb-lg-n10,
   .my-lg-n10 {
-    margin-bottom: -10rem !important;
+    margin-bottom: -12rem !important;
   }
   .ml-lg-n10,
   .mx-lg-n10 {
-    margin-left: -10rem !important;
+    margin-left: -12rem !important;
   }
   .m-lg-n20 {
     margin: -20rem !important;
@@ -17162,23 +17162,23 @@ button.bg-text:focus {
     margin-left: 6rem !important;
   }
   .m-xl-10 {
-    margin: 10rem !important;
+    margin: 12rem !important;
   }
   .mt-xl-10,
   .my-xl-10 {
-    margin-top: 10rem !important;
+    margin-top: 12rem !important;
   }
   .mr-xl-10,
   .mx-xl-10 {
-    margin-right: 10rem !important;
+    margin-right: 12rem !important;
   }
   .mb-xl-10,
   .my-xl-10 {
-    margin-bottom: 10rem !important;
+    margin-bottom: 12rem !important;
   }
   .ml-xl-10,
   .mx-xl-10 {
-    margin-left: 10rem !important;
+    margin-left: 12rem !important;
   }
   .m-xl-20 {
     margin: 20rem !important;
@@ -17390,23 +17390,23 @@ button.bg-text:focus {
     padding-left: 6rem !important;
   }
   .p-xl-10 {
-    padding: 10rem !important;
+    padding: 12rem !important;
   }
   .pt-xl-10,
   .py-xl-10 {
-    padding-top: 10rem !important;
+    padding-top: 12rem !important;
   }
   .pr-xl-10,
   .px-xl-10 {
-    padding-right: 10rem !important;
+    padding-right: 12rem !important;
   }
   .pb-xl-10,
   .py-xl-10 {
-    padding-bottom: 10rem !important;
+    padding-bottom: 12rem !important;
   }
   .pl-xl-10,
   .px-xl-10 {
-    padding-left: 10rem !important;
+    padding-left: 12rem !important;
   }
   .p-xl-20 {
     padding: 20rem !important;
@@ -17599,23 +17599,23 @@ button.bg-text:focus {
     margin-left: -6rem !important;
   }
   .m-xl-n10 {
-    margin: -10rem !important;
+    margin: -12rem !important;
   }
   .mt-xl-n10,
   .my-xl-n10 {
-    margin-top: -10rem !important;
+    margin-top: -12rem !important;
   }
   .mr-xl-n10,
   .mx-xl-n10 {
-    margin-right: -10rem !important;
+    margin-right: -12rem !important;
   }
   .mb-xl-n10,
   .my-xl-n10 {
-    margin-bottom: -10rem !important;
+    margin-bottom: -12rem !important;
   }
   .ml-xl-n10,
   .mx-xl-n10 {
-    margin-left: -10rem !important;
+    margin-left: -12rem !important;
   }
   .m-xl-n20 {
     margin: -20rem !important;
@@ -18081,7 +18081,7 @@ section .menu p {
   font-family: "texte";
 }
 
-section .menu-liste .liste-rw .col-2 .list-group a {
+section .menu-liste .liste-rw .rex .list-group a {
   font-family: "titre";
   color: black;
   background-color: white;
@@ -18090,22 +18090,30 @@ section .menu-liste .liste-rw .col-2 .list-group a {
   border-bottom: grey 2px solid;
 }
 
-section .menu-liste .liste-rw .col-2 .list-group a i {
+section .menu-liste .liste-rw .rex .list-group a i {
   color: grey;
 }
 
-section .menu-liste .liste-rw .col-2 .list-group a i:hover {
+section .menu-liste .liste-rw .rex .list-group a i:hover {
   color: red;
 }
 
-section .menu-liste .liste-rw .col-2 .list-group a:hover {
+section .menu-liste .liste-rw .rex .list-group a:hover {
   border-right: red 2px solid;
+}
+
+section .menu-liste .lex #o1 .container .col-lg-6 {
+  border-width: 50;
+}
+
+section .menu-liste .lex #o1 .container .col-lg-6 .px-2 span {
+  background-color: #d1cdcd;
 }
 
 .chef {
   background-image: url("../../../public/img/team_background.jpg");
-  height: max-content;
-  border-radius: 10px;
+  width: 100%;
+  height: 100%;
 }
 
 .chef .chef-liste h2 {
@@ -18169,7 +18177,6 @@ section .menu-liste .liste-rw .col-2 .list-group a:hover {
 
 .book .carte .card .date {
   font-family: "texte";
-  background-color: #C12D3F;
   border-radius: 10px;
 }
 
@@ -18190,7 +18197,8 @@ section .menu-liste .liste-rw .col-2 .list-group a:hover {
 
 .testimonial {
   background-image: url("../../../public/img/testimonials_background.jpg");
-  height: 59vh;
+  width: 100%;
+  height: 100%;
 }
 
 .testimonial .client h2 {
@@ -18244,7 +18252,7 @@ section .menu-liste .liste-rw .col-2 .list-group a:hover {
 }
 
 header {
-  margin: 0;
+  margin: 0 auto;
 }
 
 header #carouselExampleCaptions nav .nav-list ul li a {
@@ -18277,9 +18285,22 @@ header .bottom-header {
   font-size: 60px;
 }
 
+.deco {
+  height: 20px;
+  background-image: url("../../../public/img/bottom_decoration_img.png");
+  display: flex;
+  bottom: 0;
+  position: absolute;
+}
+
 footer {
   background-image: url("../img/footer_background.jpg");
   height: max-content;
+}
+
+footer .ft {
+  top: 0;
+  position: absolute;
 }
 
 footer .foo .reseau .insta {

@@ -1,4 +1,8 @@
 footer{
+    .ft{
+        top:0;
+        position: absolute;
+    }
     background-image: url("../img/footer_background.jpg");
     height: max-content;
     .foo{

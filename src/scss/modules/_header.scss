@@ -1,4 +1,4 @@
-header{ margin: 0;
+header{ margin: 0 auto;
     
     #carouselExampleCaptions{
         
@@ -47,5 +47,13 @@ header{ margin: 0;
                 }
             }
         }
+    }
+    .deco{
+        height: 20px;
+        background-image: url("../../../public/img/bottom_decoration_img.png");
+        
+        display: flex;
+        bottom: 0;
+        position: absolute;
     }
 

@@ -18111,7 +18111,7 @@ section .menu-liste .lex #o1 .container .col-12 .px-2 span {
 }
 
 .chef {
-  background-image: url("../../../public/img/team_background.jpg");
+  background-image: url("../img/team_background.jpg");
   width: 100%;
   height: 100%;
 }
@@ -18275,6 +18275,10 @@ header .titre-centre span {
   font-size: 60px;
 }
 
+header .titre-centre .rouge {
+  background-color: #C12D3F;
+}
+
 header nav .nav-list ul li a {
   color: white;
   font-family: "texte";
@@ -18296,7 +18300,7 @@ header .bottom-header {
 
 .deco {
   height: 20px;
-  background-image: url("../../../public/img/bottom_decoration_img.png");
+  background-image: url("../img/bottom_decoration_img.png");
   display: flex;
   bottom: 0;
   position: absolute;
@@ -18346,5 +18350,5 @@ footer .rouge {
 
 body {
   margin: 0 auto;
-  background-image: url("../../../public/img/main_bg.jpg");
+  background-image: url("../img/main_bg.jpg");
 }

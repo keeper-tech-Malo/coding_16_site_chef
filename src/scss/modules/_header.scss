@@ -19,6 +19,9 @@ header{ margin: 0 auto;
         span{
             font-size: 60px;
         }
+        .rouge{
+            background-color: #C12D3F;
+        }
     }
     nav{
         .nav-list{
@@ -54,7 +57,7 @@ header{ margin: 0 auto;
     }
     .deco{
         height: 20px;
-        background-image: url("../../../public/img/bottom_decoration_img.png");
+        background-image: url("../img/bottom_decoration_img.png");
         
         display: flex;
         bottom: 0;

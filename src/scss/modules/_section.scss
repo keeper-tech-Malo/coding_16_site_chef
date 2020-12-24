@@ -52,9 +52,10 @@ section{
                 #o1{
                     .container{
                         // border-left: 2px solid grey;
-                        .col-lg-6{
+                        .col-12{
+                            border-bottom: 2px dashed  grey;
                             
-                            border-width: 50;
+                            
                             .px-2{
                                 span{
                                     // border-bottom: 2px solid dashed grey;
@@ -71,6 +72,7 @@ section{
 }
 .chef{
     background-image: url("../../../public/img/team_background.jpg");
+    
     width: 100%;
     height: 100%;
    

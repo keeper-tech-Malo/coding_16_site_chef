@@ -18102,11 +18102,11 @@ section .menu-liste .liste-rw .rex .list-group a:hover {
   border-right: red 2px solid;
 }
 
-section .menu-liste .lex #o1 .container .col-lg-6 {
-  border-width: 50;
+section .menu-liste .lex #o1 .container .col-12 {
+  border-bottom: 2px dashed  grey;
 }
 
-section .menu-liste .lex #o1 .container .col-lg-6 .px-2 span {
+section .menu-liste .lex #o1 .container .col-12 .px-2 span {
   background-color: #d1cdcd;
 }
 
@@ -18277,6 +18277,7 @@ header .titre-centre span {
 
 header nav .nav-list ul li a {
   color: white;
+  font-family: "texte";
 }
 
 header nav .nav-list ul li a:hover {

@@ -102,7 +102,10 @@ section{
     .formulaire{
         margin: 0 auto;
         width: 70%;
-        background-image: url("../../../public/img/book_table_bg.jpg");
+        @include media-breakpoint-down(md){
+            width: 100%;
+        }
+        background-image: url("../img/book_table_bg.jpg");
         
         
         p{
@@ -168,7 +171,7 @@ section{
 }
 
 .testimonial{
-    background-image: url("../../../public/img/testimonials_background.jpg");
+    background-image: url("../img/testimonials_background.jpg");
     width: 100%;
     height: 100%;
     .client{
@@ -187,7 +190,7 @@ section{
         .photo{
             img{
                 border: rgb(202, 202, 202) 5px solid;
-                height: 150px;
+                
             }
             .info{
                 border: white 1px solid;
@@ -214,6 +217,10 @@ section{
     .localistation{
         background-color: #C12D3F;
         width: 30%;
+        @include media-breakpoint-down(md){
+            width: 100%;
+        }
+        // responsive boostrap
         border-radius: 10px;
         hr{
             

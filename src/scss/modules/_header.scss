@@ -52,18 +52,17 @@ header{ margin: 0 auto;
                 }
 
                 li{
-                    border-bottom: white 2px solid;
-                    border-top:white 2px solid ;
+                    border-bottom: white 1px solid;
+                    border-top:white 1px solid ;
                     @include media-breakpoint-down(sm){
                         background-color:#C12D3F;
                     }
                     
                     @include media-breakpoint-down(md){
                         background-color:rgb(135, 150, 168);
-                    }
-                    @include media-breakpoint-down(md){
                         padding: 5px;
                     }
+                    
                     
                     a{
                         color: white;
@@ -79,7 +78,6 @@ header{ margin: 0 auto;
             }
         }
     }
-   
     .bottom-header{
         position: absolute;
         bottom: 0%;

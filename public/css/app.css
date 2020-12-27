@@ -18328,8 +18328,8 @@ header .titre-centre .rouge {
 }
 
 header nav .nav-list ul li {
-  border-bottom: white 2px solid;
-  border-top: white 2px solid;
+  border-bottom: white 1px solid;
+  border-top: white 1px solid;
 }
 
 @media (max-width: 767.98px) {
@@ -18341,11 +18341,6 @@ header nav .nav-list ul li {
 @media (max-width: 991.98px) {
   header nav .nav-list ul li {
     background-color: #8796a8;
-  }
-}
-
-@media (max-width: 991.98px) {
-  header nav .nav-list ul li {
     padding: 5px;
   }
 }

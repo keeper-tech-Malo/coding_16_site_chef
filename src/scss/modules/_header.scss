@@ -40,7 +40,7 @@ header{ margin: 0 auto;
             ul{ 
                 
                 img{
-                    @include media-breakpoint-down(md){
+                    @include media-breakpoint-down(sm){
                         height: 6vh;
                         background-color: rgb(135, 150, 168);
                     }
@@ -57,9 +57,7 @@ header{ margin: 0 auto;
                     @include media-breakpoint-down(sm){
                         background-color:#C12D3F;
                     }
-                    @include media-breakpoint-down(md){
-                        background-color:#C12D3F;
-                    }
+                    
                     @include media-breakpoint-down(md){
                         background-color:rgb(135, 150, 168);
                     }

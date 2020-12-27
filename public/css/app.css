@@ -18314,7 +18314,7 @@ header .titre-centre .rouge {
   background-color: #C12D3F;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 767.98px) {
   header nav .nav-list ul img {
     height: 6vh;
     background-color: #8796a8;
@@ -18333,12 +18333,6 @@ header nav .nav-list ul li {
 }
 
 @media (max-width: 767.98px) {
-  header nav .nav-list ul li {
-    background-color: #C12D3F;
-  }
-}
-
-@media (max-width: 991.98px) {
   header nav .nav-list ul li {
     background-color: #C12D3F;
   }

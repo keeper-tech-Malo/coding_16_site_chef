@@ -7,6 +7,12 @@ header{ margin: 0 auto;
         transform: translate(-50%,-50%);
         h1{
             font-family: "titre";
+            @include media-breakpoint-down(sm){
+                font-size: 4vh;
+            }
+            @include media-breakpoint-down(md){
+                font-size: 3vh;
+            }
             
             
         }
@@ -18,6 +24,12 @@ header{ margin: 0 auto;
         }
         span{
             font-size: 60px;
+            @include media-breakpoint-down(sm){
+                font-size: 5vh;
+            }
+            @include media-breakpoint-down(md){
+                font-size: 4vh;
+            }
         }
         .rouge{
             background-color: #C12D3F;
@@ -25,13 +37,42 @@ header{ margin: 0 auto;
     }
     nav{
         .nav-list{
-            ul{
+            ul{ 
+                
+                img{
+                    @include media-breakpoint-down(md){
+                        height: 6vh;
+                        background-color: rgb(135, 150, 168);
+                    }
+                }
+                .liste{
+                    @include media-breakpoint-down(md){
+                        padding: 1vh;
+                    }
+                }
+
                 li{
                     border-bottom: white 2px solid;
                     border-top:white 2px solid ;
+                    @include media-breakpoint-down(sm){
+                        background-color:#C12D3F;
+                    }
+                    @include media-breakpoint-down(md){
+                        background-color:#C12D3F;
+                    }
+                    @include media-breakpoint-down(md){
+                        background-color:rgb(135, 150, 168);
+                    }
+                    @include media-breakpoint-down(md){
+                        padding: 5px;
+                    }
+                    
                     a{
                         color: white;
                         font-family: "texte";
+                    @include media-breakpoint-down(md){
+                            font-size:10px;
+                    }
                     }
                     a:hover{
                         background-color:#C12D3F ;

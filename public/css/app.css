@@ -18278,6 +18278,18 @@ header .titre-centre h1 {
   font-family: "titre";
 }
 
+@media (max-width: 767.98px) {
+  header .titre-centre h1 {
+    font-size: 4vh;
+  }
+}
+
+@media (max-width: 991.98px) {
+  header .titre-centre h1 {
+    font-size: 3vh;
+  }
+}
+
 header .titre-centre .taste {
   color: #C12D3F;
 }
@@ -18286,8 +18298,33 @@ header .titre-centre span {
   font-size: 60px;
 }
 
+@media (max-width: 767.98px) {
+  header .titre-centre span {
+    font-size: 5vh;
+  }
+}
+
+@media (max-width: 991.98px) {
+  header .titre-centre span {
+    font-size: 4vh;
+  }
+}
+
 header .titre-centre .rouge {
   background-color: #C12D3F;
+}
+
+@media (max-width: 991.98px) {
+  header nav .nav-list ul img {
+    height: 6vh;
+    background-color: #8796a8;
+  }
+}
+
+@media (max-width: 991.98px) {
+  header nav .nav-list ul .liste {
+    padding: 1vh;
+  }
 }
 
 header nav .nav-list ul li {
@@ -18295,9 +18332,39 @@ header nav .nav-list ul li {
   border-top: white 2px solid;
 }
 
+@media (max-width: 767.98px) {
+  header nav .nav-list ul li {
+    background-color: #C12D3F;
+  }
+}
+
+@media (max-width: 991.98px) {
+  header nav .nav-list ul li {
+    background-color: #C12D3F;
+  }
+}
+
+@media (max-width: 991.98px) {
+  header nav .nav-list ul li {
+    background-color: #8796a8;
+  }
+}
+
+@media (max-width: 991.98px) {
+  header nav .nav-list ul li {
+    padding: 5px;
+  }
+}
+
 header nav .nav-list ul li a {
   color: white;
   font-family: "texte";
+}
+
+@media (max-width: 991.98px) {
+  header nav .nav-list ul li a {
+    font-size: 10px;
+  }
 }
 
 header nav .nav-list ul li a:hover {

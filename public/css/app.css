@@ -18290,6 +18290,11 @@ header .titre-centre .rouge {
   background-color: #C12D3F;
 }
 
+header nav .nav-list ul li {
+  border-bottom: white 2px solid;
+  border-top: white 2px solid;
+}
+
 header nav .nav-list ul li a {
   color: white;
   font-family: "texte";
